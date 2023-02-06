@@ -1,0 +1,20 @@
+function addUser()
+{
+  user_name = document.getElementById("user_name").value ;
+
+  if(localStorage.getItem ('petname') === user_name)
+  {
+    window.location = "details.html"
+  } else{
+    window.location = "sorry.html"
+  }
+
+}       
+
+function signup()
+{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+window.location = "tsc.html"
+    
+
+}
